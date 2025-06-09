@@ -1,8 +1,9 @@
 package hitung;
 
 public class Matematika {
-    //membuat variabel 
-    private double bil1, bil2;
+    //membuat variabel
+    private final double bil1;
+    private final double bil2;
     
     //membuat constructor
     public Matematika (double bil1, double bil2){
